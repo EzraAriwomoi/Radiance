@@ -1,0 +1,96 @@
+/* Experience Landing Section */
+.experience-landing {
+    display: flex;
+    flex-wrap: wrap; /* Allow the children to wrap to the next line on smaller screens */
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 60px 10%;
+    background-color: white;
+  }
+  
+  .experience-left {
+    flex: 1; /* Allow this section to grow */
+    max-width: 30%; /* Or change to flex-basis for more flexibility */
+    margin-bottom: 20px; /* Add some margin at the bottom */
+  }
+  
+  .experience-left h2 {
+    font-size: 28px;
+    color: #3a4ebd;
+    font-weight: bold;
+  }
+  
+  .experience-right {
+    flex: 2; /* Allow this section to grow more */
+    max-width: 65%;
+    position: relative;
+  }
+  
+  .experience-image-container {
+    position: relative;
+    background-image: url("/presenting.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Ensure rounded corners apply to the overlay */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for a professional feel */
+  }
+  
+  .text-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), transparent); /* Subtle gradient overlay */
+    color: white;
+  }
+  
+  .text-overlay p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .text-overlay button {
+    background-color: #3a4ebd;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 5px; /* Rounded button */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .text-overlay button:hover {
+    background-color: #2b3e9d; /* Darker blue for hover effect */
+    transform: scale(1.05); /* Subtle scale effect */
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .experience-landing {
+      padding: 40px 5%;
+    }
+    
+    .experience-left, .experience-right {
+      flex: 1 1 100%; /* Ensure full-width on mobile */
+      max-width: 100%;
+    }
+  
+    .experience-image-container {
+      height: 250px; /* Smaller image height for mobile */
+    }
+  
+    .text-overlay p {
+      font-size: 14px; /* Smaller text on mobile */
+    }
+  
+    .text-overlay button {
+      font-size: 14px; /* Adjust button size on mobile */
+      padding: 10px 20px;
+    }
+  }
+  

@@ -1,0 +1,74 @@
+/* About Landing Section */
+.about-landing {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 60px 10%;
+    background-color: white;
+  }
+  
+  .about-left {
+    max-width: 40%;
+  }
+  
+  .about-left h2 {
+    font-size: 28px;
+    color: #3a4ebd;
+    font-weight: bold;
+  }
+  
+  .about-rectangle {
+    background-color: #3a4ebd;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px; /* Subtle rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for a modern look */
+  }
+  
+  .about-rectangle hr {
+    border: 0;
+    height: 1px;
+    background-color: #d3d3d3;
+    margin: 10px 0;
+  }
+  
+  .about-rectangle p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .about-right {
+    max-width: 50%;
+  }
+  
+  .about-right h2 {
+    font-size: 28px;
+    color: #3a4ebd;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .about-right p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #555; /* Neutral dark gray for readability */
+    margin-bottom: 25px;
+  }
+  
+  .about-right button {
+    background-color: #3a4ebd;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px; /* Rounded button */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .about-right button:hover {
+    background-color: #2b3e9d; /* Slightly darker blue on hover */
+    transform: scale(1.05); /* Subtle hover animation */
+  }
+  
