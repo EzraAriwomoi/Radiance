@@ -1,27 +1,28 @@
-/* Experience Landing Section */
 .experience-landing {
-    display: flex;
-    flex-wrap: wrap; /* Allow the children to wrap to the next line on smaller screens */
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 60px 10%;
-    background-color: white;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 60px 10%;
+  height: auto;
+  background: radial-gradient(circle at top left, rgba(58, 78, 189, 0.2), white);
+}
+
   
   .experience-left {
-    flex: 1; /* Allow this section to grow */
-    max-width: 30%; /* Or change to flex-basis for more flexibility */
-    margin-bottom: 20px; /* Add some margin at the bottom */
+    flex: 1;
+    max-width: 30%;
+    margin-bottom: 20px;
   }
   
   .experience-left h2 {
-    font-size: 28px;
-    color: #3a4ebd;
-    font-weight: bold;
-  }
+    font-size: 30px;
+    color: #333;
+    font-weight: 700;
+}
   
   .experience-right {
-    flex: 2; /* Allow this section to grow more */
+    flex: 2;
     max-width: 65%;
     position: relative;
   }
@@ -32,9 +33,9 @@
     background-size: cover;
     background-position: center;
     height: 350px;
-    border-radius: 8px; /* Rounded corners */
-    overflow: hidden; /* Ensure rounded corners apply to the overlay */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for a professional feel */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
   .text-overlay {
@@ -43,9 +44,10 @@
     left: 0;
     right: 0;
     padding: 20px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), transparent); /* Subtle gradient overlay */
-    color: white;
-  }
+    background: rgba(255, 255, 255, 0.85);
+    color: black;
+    border-radius: 0 0 8px 8px;
+}
   
   .text-overlay p {
     font-size: 16px;
@@ -57,39 +59,39 @@
     background-color: #3a4ebd;
     color: white;
     border: none;
-    padding: 12px 25px;
+    padding: 10px 22px;
     font-size: 16px;
-    border-radius: 5px; /* Rounded button */
+    font-weight: 600;
+    border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
-  }
+}
   
   .text-overlay button:hover {
-    background-color: #2b3e9d; /* Darker blue for hover effect */
-    transform: scale(1.05); /* Subtle scale effect */
+    background-color: #2b3e9d;
+    transform: scale(1.05);
   }
   
-  /* Mobile responsiveness */
   @media (max-width: 768px) {
     .experience-landing {
       padding: 40px 5%;
     }
     
     .experience-left, .experience-right {
-      flex: 1 1 100%; /* Ensure full-width on mobile */
+      flex: 1 1 100%;
       max-width: 100%;
     }
   
     .experience-image-container {
-      height: 250px; /* Smaller image height for mobile */
+      height: 250px;
     }
   
     .text-overlay p {
-      font-size: 14px; /* Smaller text on mobile */
+      font-size: 14px;
     }
   
     .text-overlay button {
-      font-size: 14px; /* Adjust button size on mobile */
+      font-size: 14px;
       padding: 10px 20px;
     }
   }

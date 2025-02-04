@@ -10,7 +10,7 @@ const Homepage = () => {
     return (
         <>
         <div className="home-page">
-        {/* <Navbar /> */}
+        <Navbar />
         <HomeLanding />
         <AboutLanding />
         <ExperienceLanding />
