@@ -3,7 +3,7 @@ import "../../css/landingcss/footer.css";
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer" id="contact">
       <div className="footer-content">
         <div className="footer-left">
           <h3>RADIANCE STAR LEGISLATIVE CONSULT LTD</h3>

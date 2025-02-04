@@ -4,7 +4,6 @@
   justify-content: space-between;
   align-items: flex-start;
   padding: 60px 10%;
-  height: auto;
   background: radial-gradient(circle at top left, rgba(58, 78, 189, 0.2), white);
 }
 
@@ -16,14 +15,14 @@
   }
   
   .experience-left h2 {
-    font-size: 30px;
-    color: #333;
+    font-size: 2rem;
+    font-family: 'Arial';
+    color: #4F4D4D;
     font-weight: 700;
 }
   
   .experience-right {
     flex: 2;
-    max-width: 65%;
     position: relative;
   }
   
@@ -43,15 +42,16 @@
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 20px;
-    background: rgba(255, 255, 255, 0.85);
-    color: black;
+    padding: 14px;
+    background: rgba(219, 219, 219, 0.85);
+    color: #181717;
     border-radius: 0 0 8px 8px;
 }
   
   .text-overlay p {
     font-size: 16px;
-    line-height: 1.6;
+    font-family: 'Arial';
+    line-height: 1.4;
     margin-bottom: 15px;
   }
   

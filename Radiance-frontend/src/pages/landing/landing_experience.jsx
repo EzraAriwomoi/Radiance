@@ -3,7 +3,7 @@ import "../../css/landingcss/landing_experience.css";
 
 const ExperienceLanding = () => {
   return (
-    <section className="experience-landing">
+    <section className="experience-landing" id="experience">
       <div className="experience-left">
         <h2>Training Experience</h2>
       </div>

@@ -24,7 +24,7 @@ const HomeLanding = () => {
           <div className="image-container">
             <div className="circle-fade"></div>
             <img
-              src="/profiles.png"
+              // src="/profiles.png"
               alt="Radiance Star"
               className="main-image"
             />
